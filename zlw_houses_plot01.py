@@ -10,7 +10,9 @@ from address import AddressParser, Address
 import matplotlib.pyplot as plt
 from pylab import figure, axes, pie, title, show
 
-with open('addresses_17Jul2018.txt') as f:
+# filename = 'zillow_addresses_07_17_2018.txt'
+filename = 'zillow_addresses_08_18_2018.txt'
+with open(filename) as f:
     addr_houses = f.readlines()
 
 
@@ -53,9 +55,9 @@ for nm in addr_houses:
     for v in vars_zestimate:
         data_out[v].append(getattr(data.zestimate,v))
 
-for v in data_out.keys():
-    print(v)
-    print(data_out[v])
+# for v in data_out.keys():
+#     print(v)
+#     print(data_out[v])
 
 fig, ax = plt.subplots( nrows=1, ncols=1 )  # create figure & 1 axis
 ax.plot([0,1,2], [10,20,3])

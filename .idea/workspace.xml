@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d5a5ec-f0dd-4c7f-8b9b-ff7a57667802" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zlw_ex02.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/zlw_ex02.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zlw_ex02.py" beforeDir="false" afterPath="$PROJECT_DIR$/zlw_ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zillow_scrape_html_source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#out3.txt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addresses_17Jul2018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean_zillow_add.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/in0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/in0_dona.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_from_pycharm.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zillow_housing_boulder_test1.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zlw_ex01.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zlw_ex02.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zlw_ex02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zlw_houses_plot01.py" beforeDir="false" afterPath="$PROJECT_DIR$/zlw_houses_plot01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +40,20 @@
       <file leaf-file-name="zlw_houses_plot01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zlw_houses_plot01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="162">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#81#94#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zillow_scrape_html_source.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zillow_scrape_html_source.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -51,13 +72,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/anaconda/lib/python3.4/site-packages/address/address.py" />
+        <option value="$PROJECT_DIR$/test_source.py" />
+        <option value="$PROJECT_DIR$/zillow_scrape_html_source.py" />
         <option value="$PROJECT_DIR$/zlw_houses_plot01.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="63" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
@@ -82,6 +104,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,12 +122,12 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="63" width="1400" height="837" extended-state="0" />
+    <frame x="0" y="23" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="7" visible="true" weight="0.32988358" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -136,10 +159,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zillow_scrape_html_source.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zlw_houses_plot01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="162">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#81#94#0" expanded="true" />
           </folding>
