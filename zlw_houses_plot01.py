@@ -65,9 +65,10 @@ plt.plot(data_out['amount'])
 fig.savefig('foo.png')   # save the figure to file
 plt.close(fig)
 
-# plt.show(block=True)
-# plt.show()
-# In[ ]:
+# TO DO NEXT:
+# check why few addresses (now removed from zillow_addresses_08_18_2018.txt) were failing;
+# merge different addresses files;
+# make relevant plots
 
 #print(type(data_out))
 

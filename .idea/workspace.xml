@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10d5a5ec-f0dd-4c7f-8b9b-ff7a57667802" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/zillow_scrape_html_source.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#out3.txt#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addresses_17Jul2018.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean_zillow_add.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/in0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/in0_dona.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_from_pycharm.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zillow_housing_boulder_test1.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zlw_ex01.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zlw_ex02.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zlw_ex02.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zlw_houses_plot01.py" beforeDir="false" afterPath="$PROJECT_DIR$/zlw_houses_plot01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="address.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda/lib/python3.4/site-packages/address/address.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="184" column="43" selection-start-line="184" selection-start-column="43" selection-end-line="184" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="zlw_houses_plot01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zlw_houses_plot01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="308">
+              <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
               <folding>
                 <element signature="e#81#94#0" expanded="true" />
               </folding>
@@ -152,13 +128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda/lib/python3.4/site-packages/address/address.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="184" column="43" selection-start-line="184" selection-start-column="43" selection-end-line="184" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zillow_scrape_html_source.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -166,10 +135,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.4/site-packages/address/address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="184" column="43" selection-start-line="184" selection-start-column="43" selection-end-line="184" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zlw_houses_plot01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="308">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
           <folding>
             <element signature="e#81#94#0" expanded="true" />
           </folding>
