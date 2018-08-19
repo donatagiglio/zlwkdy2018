@@ -8,6 +8,7 @@ import pprint
 import zipcode
 from address import AddressParser, Address
 import matplotlib.pyplot as plt
+from pylab import figure, axes, pie, title, show
 
 with open('addresses_17Jul2018.txt') as f:
     addr_houses = f.readlines()
@@ -56,9 +57,14 @@ for v in data_out.keys():
     print(v)
     print(data_out[v])
 
-ciao
+fig, ax = plt.subplots( nrows=1, ncols=1 )  # create figure & 1 axis
+ax.plot([0,1,2], [10,20,3])
 plt.plot(data_out['amount'])
-plt.show()
+fig.savefig('foo.png')   # save the figure to file
+plt.close(fig)
+
+# plt.show(block=True)
+# plt.show()
 # In[ ]:
 
 #print(type(data_out))

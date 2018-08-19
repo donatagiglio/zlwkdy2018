@@ -1,0 +1,51 @@
+tried installing something to scrape zillow without going through the view-source page but did not work...
+
+the problem is below...
+
+we started from:
+https://www.scrapehero.com/how-to-scrape-real-estate-listings-on-zillow-com-using-python-and-lxml/
+
+dgiglio@Donatas-MacBook-Pro:/Users/giglio/Desktop/ACC_JISAO/GitHub/zlwkdy2018$ pipenv install requests
+Creating a virtualenv for this project...
+Pipfile: /Users/giglio/Desktop/ACC_JISAO/GitHub/zlwkdy2018/Pipfile
+Using /Users/dgiglio/anaconda/bin/python (3.4.4) to create virtualenv...
+⠋Already using interpreter /Users/dgiglio/anaconda/bin/python
+Using base prefix '/Users/dgiglio/anaconda'
+New python executable in /Users/dgiglio/.local/share/virtualenvs/zlwkdy2018-TIfy1McK/bin/python
+dyld: Library not loaded: @loader_path/../lib/libpython3.4m.dylib
+  Referenced from: /Users/dgiglio/.local/share/virtualenvs/zlwkdy2018-TIfy1McK/bin/python
+  Reason: image not found
+ERROR: The executable /Users/dgiglio/.local/share/virtualenvs/zlwkdy2018-TIfy1McK/bin/python is not functioning
+ERROR: It thinks sys.prefix is '/Users/giglio/Desktop/ACC_JISAO/GitHub/zlwkdy2018' (should be '/Users/dgiglio/.local/share/virtualenvs/zlwkdy2018-TIfy1McK')
+ERROR: virtualenv is not compatible with this system or executable
+
+Virtualenv location: 
+Creating a Pipfile for this project...
+Traceback (most recent call last):
+  File "/Users/dgiglio/anaconda/bin/pipenv", line 11, in <module>
+    sys.exit(cli())
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/vendor/click/core.py", line 722, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/vendor/click/core.py", line 697, in main
+    rv = self.invoke(ctx)
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/vendor/click/core.py", line 1066, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/vendor/click/core.py", line 895, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/vendor/click/core.py", line 535, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/cli.py", line 435, in install
+    selective_upgrade=selective_upgrade,
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/core.py", line 1759, in do_install
+    pypi_mirror=pypi_mirror,
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/core.py", line 639, in ensure_project
+    ensure_pipfile(validate=validate, skip_requirements=skip_requirements, system=system)
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/core.py", line 288, in ensure_pipfile
+    project.create_pipfile(python=python)
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/project.py", line 607, in create_pipfile
+    required_python = self.which('python')
+  File "/Users/dgiglio/anaconda/lib/python3.4/site-packages/pipenv/core.py", line 115, in which
+    p = os.path.join(location, 'bin', command)
+  File "/Users/dgiglio/anaconda/lib/python3.4/posixpath.py", line 82, in join
+    path += b
+TypeError: unsupported operand type(s) for +=: 'NoneType' and 'str'
